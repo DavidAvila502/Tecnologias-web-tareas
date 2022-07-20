@@ -1,0 +1,22 @@
+.banner{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 65% 1fr;
+    grid-template-areas: "info photo"
+                         "skills photo";
+  }
+
+
+  .skills{
+    grid-area: skills;
+    background: #262626;
+    padding: 50px 0;
+    align-content: center;
+  }
+
+
+  .photo{
+    position: relative;
+    grid-area: photo;
+    background: #DED1C1;
+  }

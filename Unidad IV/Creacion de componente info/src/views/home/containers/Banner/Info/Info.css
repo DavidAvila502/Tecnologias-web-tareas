@@ -1,0 +1,15 @@
+
+.info{
+    grid-area: info;
+    background:#fff;
+    margin: 50px 0 25px 7%;
+  }
+
+
+  .tag_primary{
+    background: #5562FF;
+    height: 54px;
+    border-radius: 15px 0;
+    color: #FFF;
+    padding: 10px 20px;
+  }

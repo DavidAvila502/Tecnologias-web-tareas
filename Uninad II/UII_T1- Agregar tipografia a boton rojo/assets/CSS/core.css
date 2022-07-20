@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+.boton_naranja{
+    text-decoration: none;
+    background-color: #FE481C;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #FBFBFB;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.boton_azul{
+text-decoration: none;
+background-color: #5562FF;
+color: #FFFFFF;
+border-radius: 15px 0px;
+padding: 10px 20px;
+font-size: 24px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+}

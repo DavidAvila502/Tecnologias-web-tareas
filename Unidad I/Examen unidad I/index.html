@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="StyleSheet" href="./styles.css" type="text/css">
+</head>
+
+
+<body>
+    <form method="GET" action="">
+
+
+        <table style="background-color: aliceblue; padding: 15px; border-radius: 20px; ">
+            <thead>
+                <td></td>
+                <td colspan="2">
+                    <h2>FORMULARIO</h2>
+                </td>
+
+            </thead>
+            <tr>
+                <td><label>Nombre:</label></td>
+                <td><input type="text" placeholder="Nombre" name="Usuario" class="inputs"></td>
+            </tr>
+
+            <tr>
+                <td><label>Apellidos:</label></td>
+                <td><input type="text" placeholder="Apellidos" name="Apellidos" class="inputs"></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="text" placeholder="Email" name="Email" class="inputs"></td>
+            </tr>
+
+            <tr>
+                <td><label>Contraseña:</label></td>
+                <td><input type="password" placeholder="Contraseña" name="Password" class="inputs"></td>
+            </tr>
+            <tr>
+                <td><label>Repetir Contraseña:</label></td>
+                <td><input type="password" placeholder="Contraseña" name="Password" class="inputs"></td>
+            </tr>
+            <tr>
+                <td><label>Genero:</label></td>
+                <td>
+                    <input type="radio" name="genero" value="M">Mujer
+                    <input type="radio" name="genero" value="H" checked="true">Hombre
+                </td>
+
+
+            </tr>
+            <tr>
+                <td>
+                    Fotografia
+                </td>
+                <td>
+                    <input type="file" name="archivo">
+                </td>
+                <td>Seleccionar</td>
+            </tr>
+
+            <tr>
+                <td>
+                    Pais
+                </td>
+                <td>
+                    <select name="pais">
+                        <option value="0">-Seleccionar-</option>
+                        <option value="1">Mexico</option>
+                        <option value="2">Brasil</option>
+                        <option value="3">Panama</option>
+                    </select>
+                    <input type="submit" value="Enviar"
+                        style="background-color: burlywood; padding: 5px; border-radius: 6px; color: gray; border: 0px;">
+                </td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

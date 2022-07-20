@@ -1,0 +1,16 @@
+.skills_grid{
+    margin: 0 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+  .skills_grid div{
+    align-self: center;
+  }
+
+  .bar{
+    background: #FFD100;
+    height: 8px;
+  }
